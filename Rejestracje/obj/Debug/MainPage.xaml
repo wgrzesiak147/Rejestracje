@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="Rejestracje.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Rejestracje"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBox x:Name="textBoxRegisterNumber" HorizontalAlignment="Left" Margin="59,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="284"/>
+        <TextBlock x:Name="stateTextBlock" HorizontalAlignment="Left" Margin="10,364,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="108" Width="380" FontSize="29.333" Foreground="#FF2DDC1A"/>
+        <Button x:Name="buttonCheck" Content="Sprawdź" HorizontalAlignment="Left" Margin="112,259,0,0" VerticalAlignment="Top" Width="163"/>
+        <TextBlock x:Name="provinceTextBlock" HorizontalAlignment="Left" Margin="10,477,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="108" Width="380" FontSize="29.333" Foreground="#FF19FF00"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="59,131,0,0" TextWrapping="Wrap" Text="Numer rejestracji : " VerticalAlignment="Top" FontSize="29.333"/>
+        <Button x:Name="button" Content="Exit" HorizontalAlignment="Left" Margin="25,15,0,0" VerticalAlignment="Top" Width="98" Foreground="White" BorderBrush="White" BorderThickness="0" Height="53" Background="{ThemeResource AppBarItemDisabledForegroundThemeBrush}"/>
+    </Grid>
+</Page>
+
